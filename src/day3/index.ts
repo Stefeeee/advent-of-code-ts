@@ -35,7 +35,6 @@ class Day3 extends Day {
     solveForPartTwo(input: string): string {
         const regex = /mul\((\d+),(\d+)\)|do\(\)|don't\(\)/g;
         let match = input.match(regex);
-        console.log(match)
         let calculate = true
         let count = 0;
 
